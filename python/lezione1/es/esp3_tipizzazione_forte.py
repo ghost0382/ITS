@@ -15,7 +15,6 @@ except TypeError as errore:
     print("   Dettaglio errore:", errore)
     print("   Spiegazione: Python protegge i dati e non converte da solo '10' in numero o 5 in stringa!")
 
-risultato = testo + numero
+risultato = int(testo) + numero
 print("Risultato:", risultato)
 
-    
